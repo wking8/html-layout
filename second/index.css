@@ -1,0 +1,106 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+        /* BEGIN CSS FILE */
+.beige {
+    background: beige;
+    width: 70%;
+    height: 150px;
+    margin: 17px auto;
+    box-shadow: 5px 10px #888888;
+}
+.blue {
+    display: inline-block;
+    height: 145px;
+    width: 13%;
+    background: rgba(77, 196, 226, 0.461);
+    border-radius: 50%;
+    margin: 3px auto;
+}
+.dotted-border-box {
+    border: 5px dotted;
+    height: 200px;
+    margin: 25px;
+}
+.green {
+    height: 125px;
+    width: 30%;
+    background: green;
+    display: inline-block;
+    margin: 13px 50px 13px 0px;
+}
+.hello-box {
+    width: 35%;
+    border: 1px solid rgb(208, 204, 204);
+    height: 200px;
+    margin: 0 auto;
+    box-shadow: 2px 5px #888888;
+}
+.purple {
+    background: purple;
+    width: 5%;
+    height: 100px;
+    margin: 13px;
+    display: inline-block;
+    margin-right: 40px;
+}
+.solid-border-box {
+    border: 5px solid black;
+    height: 150px;
+    margin: 25px;
+}
+.text {
+    width: 22%;
+    margin: 15% auto;
+    color: rgba(45, 75, 172, 0.795);
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 3px;
+}
